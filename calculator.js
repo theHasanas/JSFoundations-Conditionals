@@ -1,3 +1,13 @@
-// Define the numbers and the operation here
+let firstNumber = 7;
+let secondNumber = 7;
+let operation = "/";
 
-// Write if-statements here
+let result;
+
+if (operation === "+") result = firstNumber + secondNumber;
+else if (operation === "-") result = firstNumber - secondNumber;
+else if (operation === "*") result = firstNumber * secondNumber;
+else if (operation === "/") result = firstNumber / secondNumber;
+else console.log("Invalid operation!");
+
+console.log(`${firstNumber} ${operation} ${secondNumber} = ${result}`);
